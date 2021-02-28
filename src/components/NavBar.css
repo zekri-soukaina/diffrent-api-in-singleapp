@@ -1,0 +1,93 @@
+.navBar {
+  position: absolute;
+  width: 825px;
+  height: 16px;
+  left: 325px;
+  top: 41px;
+}
+/* menu_text */
+.home {
+  position: absolute;
+  left: 22.57%;
+  right: 74.65%;
+  top: 4.03%;
+  bottom: 94.4%;
+
+  /* menu_text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: rgb(10, 10, 10);
+}
+.pokemons {
+  position: absolute;
+  left: 31.26%;
+  right: 63.26%;
+  top: 4.03%;
+  bottom: 94.4%;
+
+  /* menu_text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: rgb(10, 10, 10);
+}
+.advices {
+  position: absolute;
+  left: 44.75%;
+  right: 54.24%;
+  top: 4.03%;
+  bottom: 94.4%;
+
+  /* menu_text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: rgb(10, 10, 10);
+}
+.cocktails {
+  position: absolute;
+  left: 55.85%;
+  right: 44.58%;
+  top: 4.03%;
+  bottom: 94.4%;
+
+  /* menu_text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: rgb(10, 10, 10);
+}
+.movies {
+  position: absolute;
+  left: 69.85%;
+  right: 34.58%;
+  top: 4.03%;
+  bottom: 94.4%;
+
+  /* menu_text */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: rgb(10, 10, 10);
+}
