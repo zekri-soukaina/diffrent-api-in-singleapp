@@ -1,0 +1,18 @@
+.box {
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin: 50px;
+  padding: 20px;
+  align-items: center;
+}
+.form {
+  border: 2px solid rgb(250, 247, 247);
+  height: 100px;
+  width: 600px;
+  align-items: center;
+  padding: 30px;
+}
+/* .films {
+  padding: 50px;
+  ma
+} */

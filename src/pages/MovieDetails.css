@@ -1,0 +1,25 @@
+.moviepage {
+  margin-top: 100px;
+}
+h1 {
+  text-align: left;
+  margin-left: 40px;
+}
+.movie_details {
+  padding: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border: 2px double rgb(7, 7, 7);
+  background-color: rgb(40, 39, 39);
+  color: aliceblue;
+  margin: 30px;
+}
+.info_details {
+  margin-top: 30px;
+}
+.more_info_details {
+  text-align: left;
+  margin-top: 90px;
+}

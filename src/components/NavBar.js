@@ -39,7 +39,7 @@ export default function NavBar() {
       <NavLink
         className="movies"
         activeStyle={{ fontWeight: "bold" }}
-        to="/movies">
+        to="/discover">
         Movies
       </NavLink>
     </div>
