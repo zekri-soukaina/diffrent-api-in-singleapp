@@ -1,11 +1,11 @@
 import React from "react";
 import "./HomePage.css";
-import homeimg from "../images/homeimg.jpeg";
-import pokeimg from "../images/pokeimg.jpg";
-import adviceimg from "../images/adviceimg.jpg";
-import cocktailsimg from "../images/cocktailsimg.jpg";
-import movieimg from "../images/movieimg.jpg";
-import { Link, NavLink } from "react-router-dom";
+import homeimg from "../../images/homeimg.jpeg";
+import pokeimg from "../../images/pokeimg.jpg";
+import adviceimg from "../../images/adviceimg.jpg";
+import cocktailsimg from "../../images/cocktailsimg.jpg";
+import movieimg from "../../images/movieimg.jpg";
+import { NavLink } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -68,6 +68,7 @@ export default function HomePage() {
       </div>
 
       <div className="div2">
+        <p className="div2-0"> &#127909;Movie Time! &#127871;</p>
         <div className="div2-1">
           <img className="movieimg" src={movieimg} alt="img"></img>
         </div>
@@ -76,12 +77,12 @@ export default function HomePage() {
             <svg
               width="34"
               height="34"
-              viewBox="0 0 34 34"
+              viewBox="0 0 34 35"
               fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M17 34C12.4592 34 8.19002 32.2317 4.97917 29.0208C1.76833 25.81 0 21.5408 0 17C0 12.4592 1.76833 8.19002 4.97917 4.97917C8.19002 1.76833 12.4592 0 17 0C21.5408 0 25.81 1.76833 29.0208 4.97917C32.2317 8.19002 34 12.4592 34 17C34 21.5408 32.2317 25.81 29.0208 29.0208C25.81 32.2317 21.5408 34 17 34ZM17 2.65625C9.09091 2.65625 2.65625 9.09091 2.65625 17C2.65625 24.9091 9.09091 31.3437 17 31.3437C24.9091 31.3437 31.3437 24.9091 31.3437 17C31.3437 9.09091 24.9091 2.65625 17 2.65625ZM26.183 14.7422L24.3047 12.8639L17 20.1686L9.69531 12.8639L7.817 14.7422L17 23.9252L26.183 14.7422Z"
-                fill="#C4C4C4"
+                fill="black"
               />
             </svg>
           </NavLink>

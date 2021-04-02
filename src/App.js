@@ -1,12 +1,11 @@
-import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import HomePage from "./pages/HomePage";
-import PokemonsPage from "./pages/PokemonsPage";
-import AdvicesPage from "./pages/AdvicesPage";
-import CocktailsPage from "./pages/CocktailsPage";
-import MoviesPage from "./pages/MoviesPage";
-import MovieDetails from "./pages/MovieDetails";
+import HomePage from "./pages/Home/HomePage";
+import PokemonsPage from "./pages/Pokemon/PokemonsPage";
+import AdvicesPage from "./pages/Advices/AdvicesPage";
+import CocktailsPage from "./pages/Cocktails/CocktailsPage";
+import MoviesPage from "./pages/Movies/MoviesPage";
+import MovieDetails from "./pages/Movies/MovieDetails";
 
 function App() {
   return (

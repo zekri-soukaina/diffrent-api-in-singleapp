@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import "./MoviesPage.css";
-import MovieItem from "../components/MovieItem";
+import MovieItem from "../../components/MovieItem";
 
 export default function MoviesPage() {
   const history = useHistory();
